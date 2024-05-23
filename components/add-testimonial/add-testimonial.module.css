@@ -1,0 +1,110 @@
+.section_wrapper {
+  padding-top: 1.25rem;
+}
+.section_content_row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1.25rem;
+}
+.section_content_row2 {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 1.875rem;
+  /* justify-content: center; */
+}
+.section_heading {
+  /* font-family: "Poppins"; */
+  font-style: normal;
+  font-weight: 500;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  letter-spacing: 0.1px;
+  color: #605d62;
+}
+.card_wrapper {
+  height: max-content !important;
+  min-height: 18.625rem !important;
+  /* width: 100% !important; */
+  /* height: 100% !important;
+  min-height: max-content !important; */
+  width: 17rem !important;
+  text-align: center;
+  background: #ffffff;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.25);
+  /* box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.25); */
+  border-radius: 2px;
+}
+.client_card_img_wrapper {
+  margin: 0 auto;
+  width: 3.5rem;
+  height: 3.5rem;
+}
+.rating_avatar {
+  height: 56px;
+  width: 56px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-transform: uppercase;
+  font-size: 20px;
+}
+.card_content_wrapper {
+  /* padding: 5.4rem 0; */
+  /* margin: 0 0 2rem 0; */
+  margin: 1.5625rem auto;
+  height: 100%;
+  /* display: flex;
+  align-items: center;
+  justify-content: center; */
+}
+.client_card_img {
+  width: 100%;
+  height: 90%;
+  border-radius: 50%;
+}
+.edit_img {
+  position: absolute;
+  top: 0.7rem;
+  right: 1rem;
+  cursor: pointer;
+}
+.client_name {
+  margin: 0.625rem 0;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1rem;
+  line-height: 1.1875rem;
+  text-align: center;
+  color: #151515;
+  text-transform: capitalize;
+}
+.client_company {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 0.625rem;
+  line-height: 0.75rem;
+  color: #151515;
+  opacity: 0.5;
+  margin: 0 0 0.875rem 0;
+  text-transform: capitalize;
+}
+.client_comment {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 0.875rem;
+  line-height: 1.1875rem;
+  text-align: center;
+  color: #151515;
+  word-break: break-all;
+}
+
+@media screen and (max-width: 695px) {
+  .card_wrapper {
+    width: 100% !important;
+    height: 100% !important;
+    min-height: max-content !important;
+    margin: 0 auto;
+  }
+}

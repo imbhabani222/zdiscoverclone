@@ -1,0 +1,118 @@
+.section_wrapper {
+  background: #f9f9f9;
+  /* padding: 1.8125rem 13.25rem; */
+}
+.section_content_wrapper {
+  margin: 0 auto;
+  max-width: 1680px;
+  padding: 1.8125rem 6.25rem;
+  /* margin: 2.5rem 6.25rem 0; */
+}
+.section_heading {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.5rem;
+  line-height: 3rem;
+  /* color: #f68c1f; */
+  margin-bottom: 1.25rem;
+}
+.section_contact_btn {
+  width: auto;
+  height: 40%;
+  padding: 0.5625rem 0.6875rem;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 26px;
+  color: #fff !important;
+  /* background: #f68c1f; */
+  border-radius: 6px;
+  letter-spacing: 1.2px;
+}
+/* .section_contact_btn:hover {
+  color:#fff;
+  border: 0;
+} */
+.section_para {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 1.625rem;
+  color: #575757;
+  margin-bottom: 1.25rem;
+}
+.inputStyle {
+  background: #ffffff;
+  border: 1px solid #d1d1d1;
+  border-radius: 6px;
+
+  min-height: 3.5rem;
+
+  height: 100%;
+  color: #151515;
+
+  /* opacity: 0.5; */
+}
+.right_side_col {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.right_side {
+  width: 30rem;
+  height: 30rem;
+}
+@media screen and (max-width: 992px) {
+  /* .section_content_wrapper {
+    margin: 2.5rem 3.125rem 0;
+  } */
+  .section_wrapper {
+    padding: 2.5rem 3.125rem 0;
+  }
+  .right_side {
+    width: 20rem;
+    height: 20rem;
+  }
+  .section_content_wrapper {
+    padding: 0rem;
+    /* margin: 2.5rem 6.25rem 0; */
+  }
+}
+@media screen and (max-width: 600px) {
+  /* .section_content_wrapper {
+    margin: 2.5rem 2.5rem 0;
+  } */
+  .section_content_wrapper {
+    padding: 0rem;
+    /* margin: 2.5rem 6.25rem 0; */
+  }
+  .section_wrapper {
+    padding: 2.5rem 2.5rem 0;
+  }
+  .right_side {
+    display: none;
+  }
+  .section_contact_btn {
+    width: auto;
+  }
+}
+@media screen and (max-width: 480px) {
+  .section_wrapper {
+    /* padding: 1.25rem 1.1875rem 0; */
+    padding: 1.5625rem 1.1875rem 0;
+  }
+
+  .section_heading {
+    font-size: 0.875rem;
+    line-height: 1rem;
+  }
+  .section_para {
+    font-size: 0.625rem;
+    line-height: 1.625rem;
+
+    margin-bottom: 1.875rem;
+  }
+}

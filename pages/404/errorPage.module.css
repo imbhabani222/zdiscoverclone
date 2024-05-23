@@ -1,0 +1,45 @@
+.error404 #main-wrapper {
+  width: 100%;
+}
+
+.error404 #sidebar-wrapper {
+  display: none;
+}
+
+.errorWrap {
+  color: #444444;
+  text-align: center;
+  width: 50%;
+  margin: 1rem auto 0;
+}
+
+.errorWrap h3 {
+  font-size: 160px;
+  line-height: 1em;
+  margin: 0 0 20px;
+}
+
+.errorWrap h4 {
+  font-size: 25px;
+  margin: 0 0 20px;
+  font-family: "Roboto";
+}
+
+.errorWrap p {
+  margin: 0 0 10px;
+  font-family: "Roboto";
+}
+
+/* .errorWrap div {
+  display: inline-block;
+  height: 32px;
+  background-color: black;
+  font-size: 15px;
+  color: #fff;
+  font-weight: 700;
+  line-height: 32px;
+  padding: 0 20px;
+  margin: 15px 0 0;
+  border-radius: 2px;
+  cursor: pointer;
+} */

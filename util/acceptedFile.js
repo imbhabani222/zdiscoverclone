@@ -1,0 +1,1 @@
+export const acceptedFile = ["JPG", "jpg", "png", "PNG", "jpeg", "JPEG", "jfif", "JFIF"];

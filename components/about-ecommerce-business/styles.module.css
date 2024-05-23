@@ -1,0 +1,31 @@
+.main_div {
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-top: 10px;
+  max-width: 1680px;
+  margin: auto;
+}
+.about_heading {
+  font-size: 24px;
+  font-weight: 500;
+}
+.business_info {
+  padding-top: 10px;
+}
+
+/* Responsive CSS */
+@media screen and (max-width: 992px) {
+  .main_div {
+    padding: 2.5rem 3.125rem 0;
+  }
+}
+@media screen and (max-width: 492px) {
+  .main_div {
+    padding-left: 1.1875rem;
+    padding-right: 1.1875rem;
+    padding-top: 1rem;
+  }
+  .about_heading {
+    font-size: 14px;
+  }
+}

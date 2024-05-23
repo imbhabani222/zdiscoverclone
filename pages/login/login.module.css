@@ -1,0 +1,250 @@
+.login_main_container {
+  /* position: relative; */
+  /* overflow: auto; */
+  height: 100vh;
+  /* flex: 1;
+  display: block; */
+  background-image: url(../../assets/images/zlite-bg-2.svg);
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 45px;
+  padding: 2rem;
+}
+.right_content {
+  display: flex !important;
+  flex-direction: column;
+  /* justify-content: space-around; */
+  gap: 20px;
+  align-items: center;
+  width: 552px;
+  /* height: 465px; */
+  padding: 47px 20px;
+  background: #ffffff;
+}
+.left_content {
+  width: 552px;
+  /* height: 465px; */
+}
+.left_description {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 43px;
+  color: #ffffff;
+  margin: 25px 0;
+}
+
+.button_div {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  border: 1px solid #cbd5e1;
+  border-radius: 8px;
+  padding: 0.7rem;
+  font-size: 14px;
+  width: 24rem;
+  text-align: center;
+}
+.login_title {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 30px;
+  margin-bottom: 10px;
+}
+.login_text {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.5px;
+}
+.first_sec_3rd {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  font-size: 14px;
+  width: 24rem;
+}
+.text_divider {
+  display: flex;
+  align-items: center;
+  --text_divider-gap: 1rem;
+  font-size: 14px;
+  /* margin: 10px auto; */
+}
+
+/* .text_divider::before,
+.text_divider::after {
+  content: "";
+  height: 1px;
+  background-color: silver;
+  flex-grow: 1;
+}
+
+.text_divider::before {
+  margin-right: var(--text_divider-gap);
+}
+
+.text_divider::after {
+  margin-left: var(--text_divider-gap);
+} */
+.zl_input {
+  width: 3.5rem !important;
+  height: 3.5rem;
+  border-radius: 1.1rem !important;
+  text-align: center;
+}
+.zl_input_ {
+  height: 3rem;
+  border-radius: 1.1rem !important;
+}
+.zl_input_:focus {
+  border-color: #5902b3 !important;
+}
+.zl_input_:hover {
+  border-color: #5902b3 !important;
+}
+.zl_input:focus {
+  border-color: #5902b3 !important;
+}
+.zl_input:hover {
+  border-color: #5902b3 !important;
+}
+.width_input {
+  display: flex;
+  width: 24rem;
+  color: #627085;
+}
+.width_input_otp{
+  width: 24rem;
+  color: #627085;
+  gap: 1%;
+}
+@media only screen and (max-width: 860px) {
+  .login_main_container {
+    font-size: 0rem;
+  }
+  /* .left_content {
+    height: 330px;
+  } */
+  .left_description {
+    font-size: 30px;
+  }
+  .right_content {
+    /* height: 400px; */
+    border-radius: 10px;
+  }
+  .button_div {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    border: 1px solid #cbd5e1;
+    border-radius: 8px;
+    padding: 0.7rem;
+    font-size: 14px;
+    width: 85%;
+    text-align: center;
+  }
+  .width_input{
+    width: 85%;
+  }
+  .width_input_otp{
+    width: 90%;
+  }
+  .button_otp_submit{
+    width: 90%;
+  }
+  .first_sec_3rd {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    font-size: 14px;
+    width: 22rem;
+  }
+  .zl_input {
+    width: 3rem !important;
+    height: 3rem;
+    border-radius: 1.1rem !important;
+    text-align: center;
+  }
+  
+}
+@media only screen and (max-width: 480px) {
+  .first_sec_3rd {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    font-size: 14px;
+    width: 100%;
+  }
+  .right_content {
+    /* height: 100%; */
+    border-radius: 10px;
+    gap: 10px;
+    padding: 35px 20px;
+  }
+  .button_div {
+    height: 3rem;
+    padding: 0.7rem;
+    /* width: 80%; */
+    font-size: 12px;
+  }
+  /* .width_input{
+    width: 80%;
+  } */
+  .width_input_otp{
+    width: 95%;
+  }
+  .button_otp_submit{
+    width: 95%;
+  }
+  .left_description {
+    font-size: 22px;
+  }
+  .left_content{
+    /* height: 250px; */
+    text-align: center;
+    margin-bottom: 1.5rem;
+  }
+  .login_text{
+    font-size: 15px;
+  }
+  .login_logo_wrapper{
+    display: flex;
+    justify-content: center;
+  }
+  .login_logo{
+    margin-bottom: 5px;
+  }
+  .login_text_mobile{
+    font-size: 14px;
+  }
+  .login_row{
+    margin-top: -5.5rem;
+  }
+  /* .login_main_container{
+    white-space: nowrap;
+  } */
+  .login_main_container{
+    height: 100dvh;
+  }
+  .send_otp_btn{
+    margin-top:1rem !important;
+    margin-bottom:1rem !important;
+  }
+  .right_content{
+    width: auto !important;
+  }
+  .left_content{
+    width: auto !important;
+  }
+}

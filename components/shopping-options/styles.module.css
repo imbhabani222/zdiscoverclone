@@ -1,0 +1,82 @@
+.main_div {
+  padding-left: 6.25rem;
+  max-width: 1680px;
+  margin: auto;
+  padding-top: 2rem;
+  margin-bottom: 2rem;
+}
+.shopping_options {
+  font-weight: 500;
+  font-size: 1.5rem;
+}
+.shopping_options_btn {
+  display: flex;
+  column-gap: 15px;
+  font-size: 14px;
+  color: #0f70b7;
+  padding-top: 0.625rem;
+}
+.store_shopping,
+.store_delivery,
+.store_pickup {
+  display: flex;
+  border: 1px solid #0f70b7;
+  padding: 5px;
+  column-gap: 5px;
+  border-radius: 2px;
+}
+/* Responsive CSS */
+@media screen and (max-width: 992px) {
+  .main_div {
+    padding: 2.5rem 3.125rem 0;
+  }
+}
+@media screen and (max-width: 492px) {
+  .main_div {
+    padding-left: 1.1875rem;
+    padding-right: 1.1875rem;
+  }
+  .store_shopping,
+  .store_delivery,
+  .store_pickup {
+    /* border: none; */
+    font-size: 10px;
+  }
+  /* .shopping_options{
+      font-size: 14px;
+    } */
+}
+@media screen and (max-width: 420px) {
+  .store_shopping,
+  .store_delivery,
+  .store_pickup {
+    font-size: 12px;
+  }
+  .shopping_options_btn {
+    font-size: 12px;
+    column-gap: 5px;
+  }
+}
+
+@media screen and (max-width: 382px) {
+  .shopping_options_btn {
+    column-gap: 5px;
+  }
+}
+@media screen and (max-width: 362px) {
+  /* .shopping_options_btn {
+    column-gap: 5px;
+  } */
+  .store_shopping,
+  .store_delivery,
+  .store_pickup {
+    font-size: 11px;
+  }
+}
+@media screen and (max-width: 288px) {
+  .store_shopping,
+  .store_delivery,
+  .store_pickup {
+    font-size: 6px;
+  }
+}

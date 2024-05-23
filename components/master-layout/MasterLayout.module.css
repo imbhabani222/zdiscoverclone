@@ -1,0 +1,109 @@
+.sidebar_title {
+  padding: 1rem;
+  text-transform: capitalize;
+  font-size: 14px;
+}
+.navbar_img {
+  width: 10px;
+  height: 10px;
+}
+.sidebar_img {
+  vertical-align: middle;
+}
+.nav_menu_item {
+  padding: 0.5rem;
+  font-size: 10px;
+}
+.f_12 {
+  font-size: 12px;
+}
+.header_img {
+  object-fit: contain;
+  cursor: pointer;
+}
+.logout_color {
+  color: #5902b3;
+}
+.profile_overlay {
+  width: 200;
+}
+.logout_text {
+  color: #5902b3;
+  font-weight: 600;
+}
+.admin_footer {
+  text-align: center;
+  background-color: #eeecec;
+  position: sticky;
+  bottom: 0;
+}
+.admin_navbar {
+  padding: 0;
+  background: linear-gradient(286.57deg, #0090ff -49.79%, #a766eb 100%);
+  position: sticky;
+  top: 0;
+  z-index: 2;
+}
+.profile_overlay_dropdown {
+  min-width: 150px;
+}
+.master_content {
+  padding: 25px 45px;
+}
+
+.disable_ms {
+  background-color: black;
+  opacity: 0.8;
+  pointer-events: none;
+  color: gray !important;
+}
+.disable_ms_mobile{
+  pointer-events: none;
+}
+.heading_subscription {
+  font-size: 1.5rem;
+  color: #03000d;
+  text-transform: capitalize;
+}
+
+.site_layout_background {
+  background: #fff;
+  padding: 2rem;
+  min-height: 95%;
+  border-radius: 12px;
+  width: 100%;
+  box-shadow: 0px 5px 50px rgba(0, 67, 101, 0.08);
+  z-index: 1;
+}
+@media (min-width: 300px) {
+  .sidebar_title {
+    font-size: 13px;
+  }
+  .heading_subscription {
+    font-size: 1rem;
+  }
+}
+@media (min-width: 500px) {
+  .sidebar_title {
+    font-size: 13px;
+  }
+  .heading_subscription {
+    font-size: 1.1rem;
+  }
+}
+@media (min-width: 600px) {
+  .sidebar_title {
+    font-size: 14px;
+  }
+  .heading_subscription {
+    font-size: 1.2rem;
+  }
+}
+@media (min-width: 1300px) {
+  .sidebar_title {
+    font-size: 14px;
+  }
+  .heading_subscription {
+    font-size: 1.5rem;
+  }
+}
